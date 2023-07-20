@@ -188,7 +188,12 @@ static const char *default_column_types(void)
         "existing_OutOfFrame_oORFs  Integer\n"
         "existing_uORFs             Integer\n"
         "SpliceAI_pred_DP_.*        Integer\n"
-        "SpliceAI_pred_DS_.*        Float\n";
+        "SpliceAI_pred_DS_.*        Float\n"
+        "VQSLOD                     Float\n"
+        "CADD_PHRED                 Float\n"
+        "MSC                        Float\n"
+        "gnomAD_nhomalt             Integer\n"
+        "Domino                     Float\n";
 }
 static const char *usage_text(void)
 {
